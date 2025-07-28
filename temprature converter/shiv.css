@@ -1,0 +1,37 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(39, 177, 241);
+    text-align: center;
+    padding:150px;
+}
+h1{
+    color: #333;
+    font-size: 2.5em;
+}
+input,select,button{
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+input,select{
+    border-color: #b99494;
+    
+}
+button:hover{
+    background-color: #838d26;
+    border-color: #aaa;
+    border-color: #ff9900;
+    box-shadow: 0 0 5px rgba(223, 170, 91, 0.5);
+}
+button{
+    background-color: #22ee70;
+    color: rgb(59, 49, 49);
+    border: none;
+}
+#result{
+    margin-top: 20px;
+    font-size: 20px;
+    color: gree;
+}
